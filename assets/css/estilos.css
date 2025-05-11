@@ -1,0 +1,98 @@
+/* Reset básico */
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Encabezado */
+.navbar {
+  border-bottom: 3px solid #ffc107;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+/* Formularios */
+form input,
+form select,
+form textarea {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  border-radius: 6px;
+}
+
+/* Tabla de administración */
+table {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Botones de acción */
+.btn-warning,
+.btn-danger,
+.btn-success {
+  padding: 5px 10px;
+  font-size: 0.9em;
+}
+
+/* Carrusel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9em;
+}
+
+/* Tamaño uniforme para imágenes de cards */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+/* Estilo general para contenedores principales de contenido */
+.container {
+  border-radius: 8px;
+  padding: 30px;
+  margin-top: 20px;
+}
+/* Ajustes generales para párrafos y listas (li) */
+p, li {
+  font-size: 1.05em;
+  line-height: 1.6;
+}
+
+/* Estilos para las citas o bloques destacados */
+.blockquote {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ffc107;
+  padding: 10px 20px;
+  font-style: italic;
+}
+
